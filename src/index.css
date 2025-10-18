@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black text-white antialiased;
+  }
+}
+
+@layer utilities {
+  @keyframes spin-slow {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .animate-spin-slow {
+    animation: spin-slow 3s linear infinite;
+  }
+
+  /* Ocultar scrollbar pero mantener funcionalidad */
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari and Opera */
+  }
+
+  /* Animación de barra de progreso */
+  @keyframes progress-bar {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+
+  .animate-progress-bar {
+    animation: progress-bar 1.5s ease-in-out infinite;
+  }
+
+  /* Animación de flotación para partículas */
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0) translateX(0) scale(1);
+      opacity: 0;
+    }
+    50% {
+      transform: translateY(-20px) translateX(10px) scale(1.2);
+      opacity: 1;
+    }
+  }
+
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+}
