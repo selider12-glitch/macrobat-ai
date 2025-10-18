@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+google-generativeai
+python-multipart
+Pillow
+pydantic
+PyPDF2
+python-docx
+openpyxl
+mangum
