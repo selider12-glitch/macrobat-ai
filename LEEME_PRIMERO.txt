@@ -1,0 +1,76 @@
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║   🎉 MACROBAT AI - LISTO PARA VERCEL 100% GRATIS 🎉        ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+
+✅ TODO CONFIGURADO:
+  ├─ Frontend (React/Vite)
+  ├─ Backend (FastAPI/Python)  
+  ├─ Funciones Serverless
+  ├─ Variables de entorno
+  └─ Git repository inicializado
+
+📋 SIGUIENTE PASO (5 minutos):
+
+1️⃣  SUBIR A GITHUB:
+
+   Ve a: https://github.com/new
+   
+   Nombre: macrobat-ai
+   
+   Luego ejecuta:
+   
+   git remote add origin https://github.com/TU-USUARIO/macrobat-ai.git
+   git push -u origin main
+
+2️⃣  DESPLEGAR EN VERCEL:
+
+   Ve a: https://vercel.com
+   
+   → Sign Up with GitHub
+   → New Project
+   → Import tu repositorio "macrobat-ai"
+   
+   IMPORTANTE - Añadir estas variables de entorno:
+   
+   VITE_API_BASE_URL = /api
+   GEMINI_API_KEY = tu_api_key_aqui
+   GOOGLE_SEARCH_API_KEY = tu_search_api_key (opcional)
+   GOOGLE_SEARCH_ENGINE_ID = tu_engine_id (opcional)
+   
+   → Deploy
+
+3️⃣  ¡LISTO! 🚀
+
+   Tu app estará en: https://tu-proyecto.vercel.app
+   
+   Comparte esa URL con tus amigos.
+
+═══════════════════════════════════════════════════════════════
+
+📖 GUÍA COMPLETA: 
+   Abre → VERCEL_100_GRATIS.md
+
+💰 COSTO: 
+   $0 - 100% GRATIS para siempre
+
+🌍 VENTAJAS:
+   ✓ Frontend + Backend en un solo lugar
+   ✓ SSL automático (https://)
+   ✓ CDN global (rápido en todo el mundo)
+   ✓ Actualizaciones automáticas con git push
+   ✓ No necesitas tu computadora encendida
+   ✓ Funciona 24/7
+
+═══════════════════════════════════════════════════════════════
+
+🆘 ¿PROBLEMAS?
+
+   Lee la guía completa: VERCEL_100_GRATIS.md
+   
+   Sección de "Solución de Problemas" incluida.
+
+═══════════════════════════════════════════════════════════════
+
+¡AHORA CREA TU REPO EN GITHUB Y DESPLIEGA EN VERCEL! 🚀
