@@ -63,3 +63,4 @@ cloudflared-config.yml
 !public/**/*.png
 !public/**/*.jpg
 !public/**/*.jpeg
+.vercel

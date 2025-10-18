@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "name": "macrobat-ai",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
+      }
+    },
+    {
+      "src": "api/index.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/index.py"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/dist/$1"
+    }
+  ],
+  "env": {
+    "VITE_API_BASE_URL": "/api",
+    "GEMINI_API_KEY": "AIzaSyDFlpeTS4bJUb1ndPy71BRUShaeNYNfTnc",
+    "GOOGLE_SEARCH_API_KEY": "AIzaSyCbmRqsXytzrGoPATdlSUP0XnGlI468WvI",
+    "GOOGLE_SEARCH_ENGINE_ID": "262cf035db2bc44f0"
+  },
+  "build": {
+    "env": {
+      "VITE_API_BASE_URL": "/api"
+    }
+  }
+}
